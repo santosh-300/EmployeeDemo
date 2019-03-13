@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeDemo.DataModel\EmployeeDemo.DataModel.csproj" />
+    <ProjectReference Include="..\EmployeeDemo.RepositoryInterfaces\EmployeeDemo.RepositoryInterfaces.csproj" />
+    <ProjectReference Include="..\EmployeeDemo.ServiceInterfaces\EmployeeDemo.ServiceInterfaces.csproj" />
+    <ProjectReference Include="..\EmployeeDemo.ViewModel\EmployeeDemo.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
