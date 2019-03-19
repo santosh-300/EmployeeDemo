@@ -55,8 +55,8 @@ namespace EmployeeDemo.Services.Tests
             var employeeDataModelList = new List<EmployeeDataModel>()
             {
                 new EmployeeDataModel{EmployeeId = 1, EmployeeName = "John", Age = 22, Address = "USA"},
-                new EmployeeDataModel{EmployeeId = 1, EmployeeName = "Steve", Age = 24, Address = "UK"},
-                new EmployeeDataModel{EmployeeId = 1, EmployeeName = "Sachin", Age = 32, Address = "INDIA"}
+                new EmployeeDataModel{EmployeeId = 2, EmployeeName = "Steve", Age = 24, Address = "UK"},
+                new EmployeeDataModel{EmployeeId = 3, EmployeeName = "Sachin", Age = 32, Address = "INDIA"}
             };
 
             return employeeDataModelList;
